@@ -246,6 +246,10 @@ public class Tags {
         public static final TagKey<EntityType<?>> BOSSES = tag("bosses");
         public static final TagKey<EntityType<?>> MINECARTS = tag("minecarts");
         public static final TagKey<EntityType<?>> BOATS = tag("boats");
+
+        /**
+         * Tag containing entity types that extend Animal.
+         */
         public static final TagKey<EntityType<?>> ANIMALS = tag("animals");
 
         /**
